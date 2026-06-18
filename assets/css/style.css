@@ -122,9 +122,8 @@ a {
     border: 1px solid rgba(217, 70, 239, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 20px rgba(217, 70, 239, 0.15);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 0;
-    margin-bottom: 35px;
     position: relative;
     overflow: hidden;
 }
@@ -177,7 +176,7 @@ a {
     align-items: flex-start; /* vertical center */
     justify-content: center;
 
-    padding: 120px 20px 40px;     /* remove large top/bottom padding */
+    padding: 20px 20px 40px;     /* remove large top/bottom padding */
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -264,7 +263,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;   /* key for bottom stats */
+    justify-content: space-between;
+    margin-bottom: 20px;   /* key for bottom stats */
 }
 
 .hero-image img {
@@ -1268,34 +1268,29 @@ section {
     .hero-buttons .btn {
     width: 100%;
     max-width: 320px;
-}
-.hero-stats {
+   }
+   .hero-stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 100%;
     margin-top: 10px;
-}
-
-.stat-text {
+  }
+  .stat-text {
     padding: 0.5rem;
-}
-
-.stat-text h3 {
+  }
+  .stat-text h3 {
     font-size: 2rem;
-}
-
-.hero-image {
+  }
+  .hero-image {
     grid-column: 1 / -1;
     justify-self: center;
 }
-
 .hero-image img {
     width: 120px;
     height: 120px;
 }
-}
-    .services-grid,
+ .services-grid,
     .portfolio-grid,
     .contact-grid {
         grid-template-columns: 1fr;
@@ -1323,22 +1318,18 @@ section {
 
 @media (max-width: 480px) {
     .hero-content h2 {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
-
-    .typing-pill {
+     .typing-pill {
         font-size: 0.9rem;
         padding: 8px 14px;
     }
-
-    .hero-stats {
-        grid-template-columns: 1fr;
+      .hero-stats {
+       grid-template-columns: 1fr;
     }
-
-    .stat-text h3 {
+     .stat-text h3 {
         font-size: 1.8rem;
     }
-
     .hero-image img {
         width: 100px;
         height: 100px;
