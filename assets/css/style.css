@@ -177,7 +177,7 @@ a {
     align-items: flex-start; /* vertical center */
     justify-content: center;
 
-    padding: 20px 20px 40px;     /* remove large top/bottom padding */
+    padding: 120px 20px 40px;     /* remove large top/bottom padding */
     text-align: center;
     position: relative;
     overflow: hidden;
