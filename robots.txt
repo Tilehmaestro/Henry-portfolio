@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://henry-portfolio-fawn-vercel.app/sitemap.xml
