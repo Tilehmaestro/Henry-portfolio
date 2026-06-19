@@ -1220,7 +1220,7 @@ section {
     }
     .hero {
     min-height: auto;
-    padding: 110px 20px 50px;
+    padding: 20px 10px 50px;
 }
     .hero-wrapper {
     grid-template-columns: 1fr;
@@ -1288,7 +1288,7 @@ section {
 }
 .hero-image img {
     width: 120px;
-    height: 120px;
+    height: 120px;   
 }
  .services-grid,
     .portfolio-grid,
@@ -1317,6 +1317,9 @@ section {
 }
 
 @media (max-width: 480px) {
+        .hero {
+        padding: 20px 15px 40px;
+    }
     .hero-content h2 {
         font-size: 1.5rem;
     }
@@ -1345,5 +1348,74 @@ section {
 
     .contact-form-section {
         padding: 1.5rem;
+    }
+}
+@media (max-width: 360px) {
+
+    .hero {
+        padding: 20px 15px 40px;
+    }
+
+    .typing-pill {
+        padding: 8px 14px;
+        font-size: 0.85rem;
+        margin-bottom: 10px;
+    }
+
+    #typed {
+        font-size: 0.9rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+        margin-bottom: 12px;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        padding: 0 5px;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        font-size: 0.95rem;
+        padding: 12px 16px;
+    }
+
+    .hero-stats {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .stat-text {
+        padding: 0.3rem;
+    }
+
+    .stat-text h3 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+
+    .stat-text p,
+    .stat-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    .hero-image img {
+        width: 90px;
+        height: 90px;
     }
 }
