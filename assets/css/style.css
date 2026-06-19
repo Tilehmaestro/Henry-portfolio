@@ -60,11 +60,26 @@ a {
     align-items: center;
     padding: 1rem 0;
 }
+.logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
 
 .logo h1 {
     color: var(--primary-color);
     font-size: 1.8rem;
     font-weight: 700;
+    margin: 0;
+}
+.logo-subtitle {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    margin-top: 3px;
+    margin-left: 17px;
 }
 
 .nav-menu {
